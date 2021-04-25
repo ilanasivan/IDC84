@@ -1,0 +1,57 @@
+#1 [internal] load build definition from Dockerfile
+#1 sha256:cc1d959e48b95922aa55357e6c4315badd3fca8668afd5c773b8759ac40c5800
+#1 transferring dockerfile: 32B done
+#1 DONE 0.1s
+
+#2 [internal] load .dockerignore
+#2 sha256:09fb5e702027147a84e3d057c3e315089ab6c34006c1733423c6bcfe15667f4c
+#2 transferring context: 2B done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/ubuntu:latest
+#3 sha256:8c6bdfb121a69744f11ffa1fedfc68ec20085c2dcce567aac97a3ff72e53502d
+#3 DONE 5.4s
+
+#4 [1/8] FROM docker.io/library/ubuntu@sha256:3c9c713e0979e9bd6061ed52ac1e9e1f246c9495aa063619d9d695fb8039aa1f
+#4 sha256:368faac45fc339d231693d0f4f24e7bd64be397a687980a414a494fd05b01239
+#4 DONE 0.0s
+
+#8 [internal] load build context
+#8 sha256:f0b349d68d9a384c8051125e9ab24fecbf52f943234a3a4e1cc6565089a11e53
+#8 transferring context: 6.49kB done
+#8 DONE 0.1s
+
+#9 [5/8] COPY ex1.c .
+#9 sha256:8c9975f148ac3e817d4d60c91db8ca976f988bcba65c06635bf4103c9d2f34bb
+#9 CACHED
+
+#10 [6/8] COPY do_not_change/check_hw.py .
+#10 sha256:48c58bf96f2730f5956f447f6e43c606852c3007414ac2345d633339a043e22a
+#10 CACHED
+
+#11 [7/8] COPY do_not_change/tests ./tests/
+#11 sha256:6b20dbec365653b370657731161d3c95da80d5dd9addcfa73efcc52dbbe70ac7
+#11 CACHED
+
+#5 [2/8] RUN apt update
+#5 sha256:87190b481d203ee9562fd3296292457a91521dd3774ec81f32bae48396019d61
+#5 CACHED
+
+#6 [3/8] RUN apt install -y gcc
+#6 sha256:c470fa04fff6078ce3176c224a685daa5daa4ef802642a1fd528ece15229ad5c
+#6 CACHED
+
+#7 [4/8] RUN apt install -y python3
+#7 sha256:d5cc43a7b23bb26c910f78743e95d58fac6e25cfb82d7ee0d61023d6456d9929
+#7 CACHED
+
+#12 [8/8] COPY do_not_change/aux_files ./aux_files/
+#12 sha256:ce02687bb7d1478e93bef5b68cb07511538c8658b6666adfe2f0069448d85a1a
+#12 CACHED
+
+#13 exporting to image
+#13 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#13 exporting layers done
+#13 writing image sha256:203388d73c4e6a3df5ae49aa4750e100708ffbe8024d517b8356b9234074595f done
+#13 naming to docker.io/library/my_env 0.0s done
+#13 DONE 0.1s

@@ -1,0 +1,4 @@
+Part1 Tests grade: 28/30
+Part1 Manual Code Check grade: 6/6
+
+Part1 Final grade: 34/36

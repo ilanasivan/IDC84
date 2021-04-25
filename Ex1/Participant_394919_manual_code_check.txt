@@ -1,0 +1,12 @@
+Test #1:
+Description: checks if open system call was used properly.
+Status: Pass
+Test #2:
+Description: checks if close system call was used properly.
+Status: Pass
+Test #3:
+Description: checks if read system call was used properly.
+Status: Pass
+Test #4:
+Description: checks if write system call was used properly.
+Status: Pass

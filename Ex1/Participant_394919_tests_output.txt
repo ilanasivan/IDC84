@@ -1,0 +1,37 @@
+A docker is being built. It might take a minute or two if this is the first time..
+Done. Smoke tests are running now..
+Test #1:
+Description: appending non-empty file to a non-empty file. bytes amount is bigger than actual source file.
+Status: Pass
+Test #2:
+Description: appending non-empty to a path that doesn't exists without -f flag.
+Status: Pass
+Test #3:
+Description: appending non-empty file to a multiple line file. size is bigger than actual source file.
+Status: Pass
+Test #4:
+Desciprtion: appending non-empty to a path that doesn't exists with -f flag. no.file should be created.
+Status: Pass
+Test #5:
+Description: appending an empty file to non-empty file. bytes size is a not a power of two.
+Status: Pass
+Test #6:
+Description: appending big file to not exists file. appending a small amount of bytes.
+Status: Pass
+Test #7:
+Description: appending not exists file to exists file.
+Status: Pass
+Test #8:
+Description: appending large file to multi-line file. appending large number of bytes.
+Status: Pass
+Test #9:
+Description: appending 1 byte from non-empty file to not exists file.
+Status: Pass
+Test #10:
+Description: bad cli arguments to executable.
+Status: Pass
+Test #11:
+Description: appending large file to non-empty exists file with -f flag.
+Status: Fail
+Fail Reason: The file's content after appending does not match the expected output.
+
