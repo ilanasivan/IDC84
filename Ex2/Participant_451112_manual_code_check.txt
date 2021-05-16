@@ -1,0 +1,9 @@
+Test #1:
+Description: checks if the fork command was used properly.
+Status: Pass
+Test #2:
+Description: checks if the kill command was used properly.
+Status: Pass
+Test #3:
+Description: checks if the wait command was used properly.
+Status: Pass

@@ -1,0 +1,4 @@
+Part1 Tests grade: 25/27
+Part1 Prop Check grade: 9/9
+
+Part1 Final grade: 34/36

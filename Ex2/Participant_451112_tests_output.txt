@@ -1,0 +1,29 @@
+Test #1:
+Description: Tests the sanity check without -f flag.
+Status: Pass
+Test #2:
+Description: Tests an almost completely valid list without -f flag.
+Status: Pass
+Test #3:
+Description: Tests another almost completely valid list without -f flag.
+Status: Pass
+Test #4:
+Description: Tests list with ten failures out of ten without -f flag.
+Status: Pass
+Test #5:
+Description: Tests the sanity check with -f flag.
+Status: Pass
+Test #6:
+Description: Tests an almost completely valid list with -f flag.
+Status: Pass
+Test #7:
+Description: Tests another almost completely valid list with -f flag.
+Status: Pass
+Test #8:
+Description: Tests list with ten failures out of ten with -f flag.
+Status: Fail
+Fail Reason: The number of valid and unknown sites is incorrect.
+Test #9:
+Description: Tests what happens when one of the links has wrong structure.
+Status: Pass
+
